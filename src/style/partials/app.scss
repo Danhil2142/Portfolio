@@ -101,11 +101,7 @@ body {
 
 .component {
     display: flex;
-    margin-top: 1.25rem;
-}
-
-.porfolio-content-component {
-    margin-top: 1.25rem;
+    margin-top: 2rem;
 }
 
 .desired-position__title,
@@ -143,4 +139,21 @@ body {
 .experience-component__description {
     line-height: 1.5rem;
     flex: 70% 2 1;
+}
+
+.education {
+    flex-direction: column;
+}
+
+.education-component {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.education__title {
+    margin: 0 0 0.7rem 0;
+}
+
+.education__period {
+    margin: 0;
 }
