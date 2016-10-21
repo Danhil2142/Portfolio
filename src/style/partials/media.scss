@@ -1,0 +1,57 @@
+@media screen and (max-width: 640px) {
+    .portfolio-header-wrapper {
+        flex-direction: column;
+    }
+    .portfolio-header-avatar__img {
+        width: 7rem;
+    }
+    .portfolio-header-avatar {
+        order: 2;
+    }
+    .portfolio-header-about-me {
+        order: 1;
+        margin: 0;
+    }
+    .portfolio-header-about-me__name {
+        line-height: 2rem;
+        margin-top: 0.5rem;
+    }
+    .portfolio-header-contacts {
+        flex-direction: column;
+        height: 17.5rem;
+        margin-top: 1.5rem;
+    }
+    .portfolio-header-contact-group {
+        margin: 0;
+        width: 65%;
+    }
+    .desired-position {
+        flex-direction: column;
+    }
+    .desired-position__title {
+        flex: 27% 1 0;
+    }
+    .skills-and-tech-stack {
+        flex-direction: column;
+    }
+    .description,
+    .tech-stack {
+        margin: 2rem 0;
+    }
+    .title {
+        margin-top: 1.5rem;
+    }
+    .component {
+        flex-direction: column;
+        border-bottom: 1px solid #000;
+    }
+    .period {
+        flex: auto 1 0;
+    }
+    .education-component {
+        border: none;
+    }
+    .education__description {
+        margin: .5rem 0;
+    }
+}

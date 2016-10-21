@@ -1,0 +1,144 @@
+body {
+    font-family: 'MuseoSans', sans-serif;
+    max-width: 49.38rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 2rem auto;
+}
+
+// HEADER
+.portfolio-header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 2.1rem auto;
+}
+
+.portfolio-header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-header-avatar__img {
+    width: 10.63rem;
+}
+
+.portfolio-header-about-me {
+    display: flex;
+    flex-direction: column;
+    max-width: 24.23rem;
+    margin: auto;
+    & * {
+        margin: 0;
+    }
+}
+
+.portfolio-header-about-me__name {
+    font-weight: 400;
+    font-size: 2.15rem;
+    line-height: 1.5rem;
+}
+
+.portfolio-header-about-me__position {
+    font-weight: 400;
+    font-size: 1.65rem;
+    color: #756D70;
+    margin: 1.3rem 0;
+}
+
+.portfolio-header-about-me__description {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin: 1.3rem 0;
+    max-width: 22.23rem;
+    font-weight: 100;
+}
+
+.portfolio-header-contacts {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.7rem 0;
+}
+
+.portfolio-header-contact-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 13.75rem;
+}
+
+.portfolio-header-contact-group__item {
+    margin: 0.25rem 0;
+}
+
+.portfolio-header-contact-group__icon {
+    margin: 0 0.5rem 0 0;
+    width: 1rem;
+}
+
+// MAIN CONTENT
+.portfolio-content {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    max-width: 92%;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 1.35rem;
+    margin: 0 0 1.563rem 0;
+}
+
+.description,
+.tech-stack {
+    margin: 0 0 0 5%;
+    flex: 70% 2 1;
+    line-height: 1.8rem;
+}
+
+.component {
+    display: flex;
+    margin-top: 1.25rem;
+}
+
+.porfolio-content-component {
+    margin-top: 1.25rem;
+}
+
+.desired-position__title,
+.skills,
+.period {
+    flex: 13.19rem 1 0;
+    white-space: nowrap;
+}
+
+.skills-and-tech-stack {
+    display: flex;
+    margin: 2.5rem 0 0 0;
+}
+
+.skills {
+    line-height: 1.8rem;
+}
+
+.experience-component {
+    font-size: 0.95rem;
+}
+
+.experience-component__period {
+    line-height: 1.4rem;
+    margin: 0;
+}
+
+.experience-component__company-name {
+    display: inline-block;
+    margin: 0.625rem 0;
+}
+
+.experience-component__description {
+    line-height: 1.5rem;
+    flex: 70% 2 1;
+}
