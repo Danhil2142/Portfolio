@@ -25,32 +25,54 @@
         margin: 0;
         width: 65%;
     }
-    .desired-position {
-        flex-direction: column;
+    .portfolio-content {
+        margin: 0.8rem;
     }
-    .desired-position__title {
-        flex: 27% 1 0;
-    }
-    .skills-and-tech-stack {
-        flex-direction: column;
+    .title {
+        margin-top: 1.5rem;
     }
     .description,
     .tech-stack {
         margin: 2rem 0;
     }
-    .title {
-        margin-top: 1.5rem;
+    .desired-position {
+        flex-direction: column;
+        flex: 12.5rem 0 1;
+    }
+    .desired-position__title {
+        flex: 30% 0 1;
+    }
+    .desired-position__description {
+        flex: 70% 0 1;
+    }
+    .skills-and-tech-stack {
+        flex-direction: column;
+        flex: 42.5rem 0 1;
     }
     .component {
         flex-direction: column;
         border-bottom: 1px solid #000;
+        min-width: 18.75rem;
     }
     .period {
         flex: auto 1 0;
     }
+    .experience-component {
+        flex: 25rem 0 1;
+    }
+    .experience-component__period {
+        flex: 9.375rem 0 1;
+    }
+    .experience-component__description {
+        flex: 12.5rem 0 1;
+    }
+    .education {
+        flex: 23.75rem 0 1;
+    }
     .education-component {
         border: none;
         flex-direction: column;
+        flex: 11.88rem 0 1;
     }
     .education__description {
         margin: .5rem 0;
