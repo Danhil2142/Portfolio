@@ -1,12 +1,14 @@
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 856px) {
     .portfolio-header-wrapper {
-        flex-direction: column;
+        flex-direction: row;
+        margin: 0 5%;
     }
     .portfolio-header-avatar__img {
         width: 7rem;
     }
     .portfolio-header-avatar {
         order: 2;
+        margin-top: 6rem;
     }
     .portfolio-header-about-me {
         order: 1;
@@ -16,10 +18,16 @@
         line-height: 2rem;
         margin-top: 0.5rem;
     }
+}
+
+@media screen and (max-width: 660px) {
+    .portfolio-header-avatar {
+        margin: 1%;
+    }
     .portfolio-header-contacts {
         flex-direction: column;
         height: 17.5rem;
-        margin-top: 1.5rem;
+        margin: 1.5rem 5% 0;
     }
     .portfolio-header-contact-group {
         margin: 0;
@@ -37,7 +45,7 @@
     }
     .desired-position {
         flex-direction: column;
-        flex: 12.5rem 0 1;
+        flex: 18rem 0 1;
     }
     .desired-position__title {
         flex: 30% 0 1;
@@ -47,34 +55,22 @@
     }
     .skills-and-tech-stack {
         flex-direction: column;
-        flex: 42.5rem 0 1;
+        flex: 48rem 0 1;
     }
     .component {
         flex-direction: column;
         border-bottom: 1px solid #000;
-        min-width: 18.75rem;
     }
     .period {
         flex: auto 1 0;
     }
     .experience-component {
-        flex: 25rem 0 1;
+        flex: 28rem 0 1;
     }
     .experience-component__period {
-        flex: 9.375rem 0 1;
+        flex: 10rem 0 1;
     }
     .experience-component__description {
-        flex: 12.5rem 0 1;
-    }
-    .education {
-        flex: 23.75rem 0 1;
-    }
-    .education-component {
-        border: none;
-        flex-direction: column;
-        flex: 11.88rem 0 1;
-    }
-    .education__description {
-        margin: .5rem 0;
+        flex: 16rem 0 1;
     }
 }

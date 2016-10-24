@@ -1,10 +1,15 @@
 body {
     font-family: 'MuseoSans', sans-serif;
-    max-width: 49.38rem;
+    max-width: 60rem;
     display: flex;
     flex-direction: column;
     align-content: center;
     margin: 2rem auto;
+}
+
+.wrapper {
+    max-width: 52.81rem;
+    margin: 0 auto;
 }
 
 // HEADER
@@ -12,8 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 90%;
-    margin: 2.1rem auto;
+    margin: 5.1rem auto 0;
 }
 
 .portfolio-header-wrapper {
@@ -22,14 +26,14 @@ body {
 }
 
 .portfolio-header-avatar__img {
-    width: 10.63rem;
+    width: 12.69rem;
 }
 
 .portfolio-header-about-me {
     display: flex;
     flex-direction: column;
-    max-width: 24.23rem;
-    margin: auto;
+    max-width: 467px;
+    margin: 0 5.28rem;
     & * {
         margin: 0;
     }
@@ -37,23 +41,28 @@ body {
 
 .portfolio-header-about-me__name {
     font-weight: 400;
-    font-size: 2.15rem;
-    line-height: 1.5rem;
+    font-size: 2.594rem;
+    margin-top: -0.46rem;
+    letter-spacing: -0.05px;
 }
 
 .portfolio-header-about-me__position {
     font-weight: 400;
-    font-size: 1.65rem;
+    font-size: 1.91rem;
+    letter-spacing: -0.3px;
+    word-spacing: 0.0625rem;
     color: #756D70;
-    margin: 1.3rem 0;
+    margin: 0.96rem 0;
+    word-spacing: 0.125rem;
 }
 
 .portfolio-header-about-me__description {
-    font-size: 1.2rem;
-    line-height: 2rem;
-    margin: 1.3rem 0;
-    max-width: 22.23rem;
+    font-size: 1.41rem;
+    line-height: 2.2rem;
+    margin: 2.32rem 0;
+    max-width: 25.31rem;
     font-weight: 100;
+    word-spacing: 0.5px;
 }
 
 .portfolio-header-contacts {
@@ -65,16 +74,21 @@ body {
 .portfolio-header-contact-group {
     display: flex;
     flex-direction: column;
-    min-width: 13.75rem;
+    min-width: 16.75rem;
 }
 
 .portfolio-header-contact-group__item {
-    margin: 0.25rem 0;
+    margin-bottom: 0.7rem;
+    font-size: 1.12rem;
 }
 
 .portfolio-header-contact-group__icon {
-    margin: 0 0.5rem 0 0;
+    margin: 0 0.9rem 0 0;
     width: 1rem;
+}
+
+.portfolio-header-contact-group__icon-phone {
+    margin: 0 0.6rem 0 0;
 }
 
 // MAIN CONTENT
@@ -82,78 +96,99 @@ body {
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    max-width: 92%;
     margin: 0 auto;
 }
 
 .title {
     font-weight: 400;
     font-size: 1.35rem;
-    margin: 0 0 1.563rem 0;
+    min-width: 15rem;
+    margin: 0;
+    font-size: 1.5rem;
 }
 
-.description,
-.tech-stack {
-    margin: 0 0 0 5%;
-    flex: 70% 2 1;
-    line-height: 1.8rem;
+.description {
+    margin: 0;
 }
 
 .component {
     display: flex;
-    margin-top: 2rem;
 }
 
-.desired-position__title,
-.skills,
 .period {
-    flex: 13.19rem 1 0;
     white-space: nowrap;
+    min-width: 15rem;
+    margin: 0;
+}
+
+.desired-position {
+    margin-top: 2.438rem;
+}
+
+.desired-position__description {
+    margin-left: 3rem;
+    font-size: 17.9px;
+    line-height: 2rem;
 }
 
 .skills-and-tech-stack {
     display: flex;
-    margin: 2.5rem 0 0 0;
+    margin-top: 2.875rem;
 }
 
 .skills {
-    line-height: 1.8rem;
+    min-width: 15rem;
 }
 
-.experience-component,
-.tech-stack__description,
 .skills__description {
-    font-size: 0.95rem;
+    margin: 0;
+    margin-top: 1.125rem;
+    line-height: 2rem;
+    font-size: 1.063rem;
+}
+
+.tech-stack {
+    margin-left: 3rem;
+}
+
+.tech-stack__description {
+    margin: 0;
+    margin-top: 1.125rem;
+    line-height: 2rem;
+    font-size: 1.125rem;
+    letter-spacing: -0.4px;
+}
+
+.tech-stack__string {
+    display: inline-block;
+    line-height: 1.625rem;
+    margin: 0.1875rem 0;
+}
+
+.experience__title {
+    margin-top: 0.75rem;
+}
+
+.experience-component {
+    margin-bottom: 0.5rem;
 }
 
 .experience-component__period {
-    line-height: 1.4rem;
-    margin: 0;
+    margin-top: 1.75rem;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
 }
 
 .experience-component__company-name {
     display: inline-block;
-    margin: 0.625rem 0;
+    line-height: 1.563rem;
+    margin: 0.4375rem 0;
 }
 
 .experience-component__description {
-    line-height: 1.5rem;
-    flex: 70% 2 1;
-}
-
-.education {
-    flex-direction: column;
-}
-
-.education-component {
-    display: flex;
-    margin-top: 1rem;
-}
-
-.education__title {
-    margin: 0 0 0.7rem 0;
-}
-
-.education__period {
-    margin: 0;
+    margin-top: 1.75rem;
+    margin-left: 2.938rem;
+    font-size: 18px;
+    line-height: 1.625rem;
+    letter-spacing: -0.1px;
 }
